@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+body {
+    background: linear-gradient(to left, #6c29c3, #FFBD39);
+}
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.road {
+    border: 1px solid white;
+    width: 90%;
+    height: 100px;
+    background-image: url(img/flag/linesman.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.car1 {
+    width: 90px;
+}
+.car2 {
+    width: 90px;
+}
+.car3 {
+    width: 90px;
+}
+.car4 {
+    width: 90px;
+}
+.car5 {
+    width: 90px;
+}
+p {
+    color: rgb(132, 243, 122);
+    text-align: center;
+    font-size: 25px;
+}
+span {
+    color: snow;
+}
+.info {
+    text-align: center;
+}
+button {
+    margin: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(122, 246, 111);
+    font-size: 30px;
+    outline: none;
+}
+button:hover {
+    background-color: rgb(70, 184, 59);
+}    
