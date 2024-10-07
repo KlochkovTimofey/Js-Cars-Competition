@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Гонки</title>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="road"><img class="car1" src="img/car/car (1).svg" alt=""></div>
-        <div class="road"><img class="car2" src="img/car/car (2).svg" alt=""></div>
-        <div class="road"><img class="car3" src="img/car/car.svg" alt=""></div>
-        <div class="road"><img class="car4" src="img/car/sports-car (1).svg" alt=""></div>
-        <div class="road"><img class="car5" src="img/car/sports-car.svg" alt=""></div>
-    </div>
-    <div class="info">
-        <p>Твой счет:<span class="score">100</span></p>
-        <p>Твоя ставка:<span class="bet">0</span></p>
-        
-        <button class="minus">-10</button>
-        <button class="plus">+10</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./img/flag/flag.png">
+        <link rel="stylesheet" href="style.css" />
+        <title>Гонки</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="road">
+                <img class="car1" src="img/car/car (1).svg" alt="" />
+            </div>
+            <div class="road">
+                <img class="car2" src="img/car/car (2).svg" alt="" />
+            </div>
+            <div class="road">
+                <img class="car3" src="img/car/car.svg" alt="" />
+            </div>
+            <div class="road">
+                <img class="car4" src="img/car/sports-car (1).svg" alt="" />
+            </div>
+            <div class="road">
+                <img class="car5" src="img/car/sports-car.svg" alt="" />
+            </div>
+        </div>
+        <div class="info">
+            <p>Твой счет: <span class="score">100</span></p>
+            <p>Твоя ставка: <span class="bet">0</span></p>
 
-        <p>Кто победит?</p>
+            <button class="minus">-10</button>
+            <button class="plus">+10</button>
 
-        <button class="yellow button" onclick="properlyWinner('yellow')">1 машина</button>
-        <button class="orange button" onclick="properlyWinner('orange')">2 машина</button>
-        <button class="white button" onclick="properlyWinner('white')">3 машина</button>
-        <button class="sport-orange button" onclick="properlyWinner('sport-orange')">4 машина</button>
-        <button class="sport-red button" onclick="properlyWinner('sport-red')">5 машина</button>
-    </div>
-    <script src="script.js"></script>
-</body>
+            <p>Кто победит?</p>
+
+            <button class="yellow button" onclick="properlyWinner('yellow')">
+                1 машина
+            </button>
+            <button class="orange button" onclick="properlyWinner('orange')">
+                2 машина
+            </button>
+            <button class="white button" onclick="properlyWinner('white')">
+                3 машина
+            </button>
+            <button
+                class="sport-orange button"
+                onclick="properlyWinner('sport-orange')"
+            >
+                4 машина
+            </button>
+            <button
+                class="sport-red button"
+                onclick="properlyWinner('sport-red')"
+            >
+                5 машина
+            </button>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
